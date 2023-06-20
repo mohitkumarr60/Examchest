@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="Css File/Contact-us.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <!-- <div class="overlay has-fade"></div> -->
+        <nav class="container flex jc-sb ai-c">
+            <a href="../Webh.html" class="logo">
+                <img src="pictures/examchest.png" alt="logo">
+            </a>
+
+            <a id="hambtn" href="#" class="menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+            <div class="links"> 
+                <a href="../Webh.html">Home</a>
+            <a href="../Question_Papers/paper.html">Question Papers</a>
+                <a href="../About Us/1st.html">About Us</a>
+                <a href="../About Us/1st.html#overview1" name="overview1">Overview</a>
+            </div>
+            <a href="#" class="button">Contact Us</a> 
+        </nav>
+        <div class="h_menu has-fade">
+            <a href="../Webh.html">Home</a>
+            <a href="../Question_Papers/paper.html">Question Papers</a>
+            <a href="../About Us/1st.html">About Us</a>
+            <a href="../About Us/1st.html#overview1" name="overview1">Overview</a>
+        </div>
+    </header>
+    <div class="content">
+
+        <span class="l-circle"></span>
+        <span class="shape">
+            <img src="image/undraw_new_notifications_fhvw.svg" alt="shape"></span>
+        <div class="form">
+            <div class="info-contact">
+                <h3 class="title">Let's get in Touch</h3>
+                <p class="paragraph">
+                    Leave a message or send an Email to the email address below
+                </p>
+                <div class="info-mail">
+                    <img src="image/email-address.png" id="e-icon" alt="">   
+                    <p>creationsmohit60@gmail.com</p> 
+                   </div>
+                   <div class="social-platform">
+                    <p>Connect With Us</p>
+                    <div class="s-icon">
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                         </a>
+                            <a href="https://twitter.com/?lang=en" target="_blank">
+                                <i class="fab fa-twitter"></i>
+                         </a>
+                         <a href="https://www.instagram.com/" target="_blank">
+                             <i class="fab fa-instagram"></i>
+                         </a>
+                     </div>
+                </div>
+            </div>
+
+            <div class="contactUs-form">
+                <form action="http://localhost/NSBM%20Final%20Web%20Project/Contact%20us/Contact.php" method="POST" onsubmit="alert('Thanks for Contacting Us');">
+                    <h3 class="title">Contact us</h3>
+                    <div class="input-field ">
+                        <input type="text" name="username" class="inputs" required>
+                        <label for="">Name</label>
+                        <span>Name</span>
+                    </div>
+                    <div class="input-field ">
+                        <input pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" name="email" class="inputs" required>
+                        <label for="">Email</label>
+                        <span>Email</span>
+                    </div>
+                    <div class="input-field text-field">
+                        <textarea name="message" class="inputs" required></textarea>                        
+                        <label for="">Message</label>
+                        <span>Message</span>
+                    </div>
+                    <input type="submit" value="Send" class="in-button">
+               </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <a class="f_logo" href="/Webh.html">
+            <img src="pictures/examchest.png" alt="">
+        </a>
+    
+        <div class="f_social">
+            <a href="https://instagram.com/mohit_creations_official?igshid=ZGUzMzM3NWJiOQ==/" target="_blank">
+                <img src="pictures/insta.svg" alt="Instagram"></a>
+            <a href="https://github.com/mohitkumarr60" target="_blank">
+                <img src="pictures/github-mark.svg" alt="GitHub"></a>
+            <a href="https://www.linkedin.com/in/mohit-saroha-bb84b8207" target="_blank">
+                <img src="pictures/Linkedin.svg" alt="Linkedin"></a>
+        </div>
+    
+        <div class="f_links">
+            <a href="../Question_Papers/paper.html">Question Papers</a>
+            <a href="../About Us/1st.html">About Us</a>
+        </div>
+    
+        <div class="f_links2">
+            <a href="../About Us/1st.html#overview1" name="overview1">Overview</a>
+            <a href="https://www.freeprivacypolicy.com/live/1258f34c-cde9-41df-b77f-ec4408541a26">Privacy Policy</a>
+        </div>
+    
+        <div class="f_button">
+            <a href="../Contact us/Contact Us.html" class="button2">Contact Us</a>
+            <div class="f_copyright">
+                &copy; Brogrammers. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+    <script src="Js file/contact us.js"></script>
+    <script src="Js file/Webj.js"></script>
+</body>
+</html>
